@@ -208,7 +208,7 @@ const MainUses = () => {
 
 						<UsesList>
 							<li>Terminal: Hyper, iTerm 2</li>
-							<li>Theme: Material Theme></li>
+							<li>Theme: Material Theme</li>
 							<li>Shell Configuration: Oh My Zsh</li>
 						</UsesList>
 
