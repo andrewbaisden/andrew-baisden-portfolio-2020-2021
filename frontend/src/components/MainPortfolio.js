@@ -386,7 +386,7 @@ const MainPortfolio = () => {
 			// URL for backend node express endpoint
 			// Comment/uncomment the code below for switching between local/online servers
 			// const API = 'http://localhost:5000/api';
-			const API = 'https://portfolio2020-backend.now.sh/api';
+			const API = 'https://portfolio2020-backend.andrewbaisden.now.sh/api';
 
 			const response = await fetch(API);
 			let data = await response.json();
@@ -466,7 +466,7 @@ const MainPortfolio = () => {
 			// URL for backend node express endpoint
 			// Comment/uncomment the code below for switching between local/online servers
 			// const API = 'http://localhost:5000/api';
-			const API = 'https://portfolio2020-backend.now.sh/api';
+			const API = 'https://portfolio2020-backend.andrewbaisden.now.sh/api';
 
 			const response = await fetch(API);
 			let data = await response.json();
