@@ -12,8 +12,8 @@ const PageContainer = styled.div`
 `;
 
 const pageState = {
-	backgroundImageDesktop: "url('/assets/img/home.webp') no-repeat 100%;",
-	backgroundImageMobile: "url('/assets/img/home_mobile.webp') no-repeat 100%;",
+	backgroundImageDesktop: "url('/assets/img/home.png') no-repeat 100%;",
+	backgroundImageMobile: "url('/assets/img/home_mobile.png') no-repeat 100%;",
 	logoDisplay: 'block',
 	pageTitle: 'ndrew'
 };
