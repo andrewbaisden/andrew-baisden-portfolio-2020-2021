@@ -374,28 +374,28 @@ const Main = () => {
 				<DiagonalBG></DiagonalBG>
 				<TechStackContainer>
 					<TechStack>
-						<TechStackImg src="/assets/img/mongodb.webp" alt="MongoDB" />
+						<TechStackImg src="/assets/img/mongodb.png" alt="MongoDB" />
 						<TechStackPara>
 							MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program,
 							MongoDB uses JSON-like documents with schema.
 						</TechStackPara>
 					</TechStack>
 					<TechStack>
-						<TechStackImg src="/assets/img/express.webp" alt="Express.js" />
+						<TechStackImg src="/assets/img/express.png" alt="Express.js" />
 						<TechStackPara>
 							Express.js, or simply Express, is a web application framework for Node.js. It is designed for building web
 							applications and APIs.
 						</TechStackPara>
 					</TechStack>
 					<TechStack>
-						<TechStackImg src="/assets/img/react.webp" alt="React.js" />
+						<TechStackImg src="/assets/img/react.png" alt="React.js" />
 						<TechStackPara>
 							React is a JavaScript library for building user interfaces. React can be used as a base in the development
 							of single-page or mobile applications.
 						</TechStackPara>
 					</TechStack>
 					<TechStack>
-						<TechStackImg src="/assets/img/nodejs.webp" alt="Node.js" />
+						<TechStackImg src="/assets/img/nodejs.png" alt="Node.js" />
 						<TechStackPara>
 							Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code
 							outside of a browser.
@@ -415,13 +415,13 @@ const Main = () => {
 					</DesignIntro>
 					<DesignToolsContainer>
 						<DesignTools>
-							<DesignImg src="/assets/img/photoshop.webp" alt="Adobe Photoshop" />
+							<DesignImg src="/assets/img/photoshop.png" alt="Adobe Photoshop" />
 							<p>
 								Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS.
 							</p>
 						</DesignTools>
 						<DesignTools>
-							<DesignImg src="/assets/img/figma.webp" alt="Figma" />
+							<DesignImg src="/assets/img/figma.png" alt="Figma" />
 							<p>Figma is a vector based design and prototype tool which is used for creating User Interfaces (UI).</p>
 						</DesignTools>
 					</DesignToolsContainer>
