@@ -34,7 +34,7 @@
 		"jobTitle": "Web Developer",
 		"company": "BCSG",
 		"img": "http://localhost:5000/static/bcsgLogo.svg",
-		"url": "N/A",
+		"url": "https://property-quote-generator-app.netlify.com/",
 		"jobRole": "Developing a housing price quote calculator app",
 		"techStack": ["Front End", "HTML5", "CSS3", "Javascript", "React"],
 		"workType": "Commercial"
