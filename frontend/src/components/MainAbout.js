@@ -251,7 +251,7 @@ const MainAbout = () => {
 							My preference is Audibile when it comes to books as i find that it’s a fast way to learn. I read almost
 							anything lately it has been a lot of personal development. Huge movie buff anything Marvel or DC will do
 							as well. Stream a lot of shows shout out to… The Mandalorian and Stranger Things! I also watch a lot of
-							anime as well plus read manga. And i will eat almost anything if there is chicken in it! The cliche… 😜
+							anime as well plus read manga. And i will eat almost anything.
 						</AboutPara>
 
 						<AboutHeadingH1>The six things I could never do without</AboutHeadingH1>
@@ -268,7 +268,8 @@ const MainAbout = () => {
 						<AboutHeadingH1>I spend a lot of time thinking about</AboutHeadingH1>
 
 						<AboutPara>
-							Is this turning into a dating profile? I hope not it was only supposed to be a joke! 😉 🙃
+							If we had more sun here in London then people would stop complaining about the rain and complain about the
+							heatwave instead 😂
 						</AboutPara>
 
 						<AboutHeadingH1>I’m looking for</AboutHeadingH1>
@@ -283,9 +284,8 @@ const MainAbout = () => {
 						<AboutHeadingH1>You should message me if</AboutHeadingH1>
 
 						<AboutPara>
-							You are not a recruiter. As much as i enjoy Linkedin notifications I would much prefer notifications from
-							more entertaining apps 🙃 Only kidding i welcome all hahaha 🤣 Anything short term, long term or remote
-							will do. Feel free to connect with me on social media as well.
+							You are human and not a robot. It's a bit too soon for the robot apocalypse 🔥. Contact me with any work
+							opportunites that are short term, long term or remote. And feel free to connect with me on social media.
 						</AboutPara>
 					</AboutText>
 				</ConnectContainer>
