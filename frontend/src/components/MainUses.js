@@ -272,12 +272,13 @@ const MainUses = () => {
 						<UsesList>
 							<li>Calendar: Apple Calendar</li>
 							<li>Email: Apple Email</li>
+							<li>Bear: Note taking and writing documents</li>
 							<li>
 								Notion: Notion is an all-in-one workspace where you can write, plan, collaborate and get organised - it
 								allows you to take notes, add tasks, manage projects & more
 							</li>
-							<li>Tick Tick: To Do Lists, Reminders and Pomodoro</li>
-							<li>Bear: Note taking and writing documents</li>
+							<li>Habitica: To Do Lists and reminders</li>
+							<li>Forest: Pomodoro</li>
 							<li>Day One: Journaling</li>
 						</UsesList>
 					</UsesText>
