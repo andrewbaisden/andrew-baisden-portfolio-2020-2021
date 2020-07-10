@@ -6,12 +6,13 @@ import Nav from '../components/Nav';
 const HeaderContainer = styled.header`
 	position: absolute;
 	z-index: 2;
+	width: 100%;
 `;
 
 const VideoBGContainer = styled.div`
 	position: relative;
 	z-index: 2;
-	width: 100vw;
+	width: 100%;
 `;
 
 const VideoBGImg = styled.div`
@@ -19,7 +20,7 @@ const VideoBGImg = styled.div`
 	z-index: 8;
 	width: 100%;
 	height: 90rem;
-	background: ${props => props.background || '#2A3642'};
+	background: ${(props) => props.background || '#2A3642'};
 	background-size: cover;
 
 	/* 
@@ -30,7 +31,7 @@ const VideoBGImg = styled.div`
 	@media (min-width: 481px) and (max-width: 767px) {
 		//CSS
 		height: 77rem;
-		background: ${props => props.background || '#2A3642'};
+		background: ${(props) => props.background || '#2A3642'};
 		background-size: 195% 95%;
 	}
 
@@ -42,7 +43,7 @@ const VideoBGImg = styled.div`
 	@media (min-width: 320px) and (max-width: 480px) {
 		//CSS
 		height: 77rem;
-		background: ${props => props.background || '#2A3642'};
+		background: ${(props) => props.background || '#2A3642'};
 		background-size: 195% 95%;
 	}
 `;
@@ -134,7 +135,7 @@ const MyName = styled.div`
 
 const MyNameLogo = styled.img`
 	height: 10rem;
-	display: ${props => props.display || 'block'};
+	display: ${(props) => props.display || 'block'};
 
 	/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -234,7 +235,7 @@ const FooterSitePara = styled.p`
 	line-height: 1.8rem;
 `;
 
-const Header = props => {
+const Header = (props) => {
 	const getYear = () => {
 		const date = new Date();
 		const year = date.getFullYear();
