@@ -93,7 +93,7 @@ const PageTitleHeading = styled.h1`
 
 const PageIntroBG = styled.div`
 	position: absolute;
-	background: #ffffff;
+	/* background: #ffffff; */
 	width: 100%;
 	height: 33rem;
 	top: 90rem;
@@ -107,6 +107,7 @@ const DiagonalBG = styled.div`
 	height: 193.7rem;
 	right: 0;
 	width: 107.6rem;
+	z-index: -1;
 `;
 
 const PortfolioContent = styled.div`
@@ -398,7 +399,7 @@ const MainPortfolio = () => {
 				<PortfolioPageMainContainer>
 					<PortfolioHeadingH1>commercial</PortfolioHeadingH1>
 					<PortfolioContentContainer>
-						{data.map(list => {
+						{data.map((list) => {
 							if (list.workType === 'Commercial') {
 								return (
 									<div key={list.id}>
@@ -417,7 +418,7 @@ const MainPortfolio = () => {
 					</PortfolioContentContainer>
 					<PortfolioHeadingH1>my playground</PortfolioHeadingH1>
 					<PortfolioContentContainer>
-						{data.map(list => {
+						{data.map((list) => {
 							if (list.workType === 'Personal') {
 								return (
 									<div key={list.id}>
@@ -436,7 +437,7 @@ const MainPortfolio = () => {
 					</PortfolioContentContainer>
 					<PortfolioHeadingH1>archives</PortfolioHeadingH1>
 					<PortfolioContentContainer>
-						{data.map(list => {
+						{data.map((list) => {
 							if (list.workType === 'Archive') {
 								return (
 									<div key={list.id}>
@@ -461,7 +462,7 @@ const MainPortfolio = () => {
 		}
 	};
 
-	const getFilterData = async techSkill => {
+	const getFilterData = async (techSkill) => {
 		try {
 			// URL for backend node express endpoint
 			// Comment/uncomment the code below for switching between local/online servers
@@ -478,7 +479,7 @@ const MainPortfolio = () => {
 				<PortfolioPageMainContainer>
 					<PortfolioHeadingH1>commercial</PortfolioHeadingH1>
 					<PortfolioContentContainer>
-						{data.map(list => {
+						{data.map((list) => {
 							if (list.workType === 'Commercial' && list.techStack.includes(`${techSkill}`)) {
 								return (
 									<div key={list.id}>
@@ -497,7 +498,7 @@ const MainPortfolio = () => {
 					</PortfolioContentContainer>
 					<PortfolioHeadingH1>my playground</PortfolioHeadingH1>
 					<PortfolioContentContainer>
-						{data.map(list => {
+						{data.map((list) => {
 							if (list.workType === 'Personal' && list.techStack.includes(`${techSkill}`)) {
 								return (
 									<div key={list.id}>
@@ -516,7 +517,7 @@ const MainPortfolio = () => {
 					</PortfolioContentContainer>
 					<PortfolioHeadingH1>archives</PortfolioHeadingH1>
 					<PortfolioContentContainer>
-						{data.map(list => {
+						{data.map((list) => {
 							if (list.workType === 'Archive' && list.techStack.includes(`${techSkill}`)) {
 								return (
 									<div key={list.id}>

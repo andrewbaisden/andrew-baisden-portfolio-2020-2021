@@ -36,10 +36,10 @@ const DevCommunityHeading = styled.h1`
 
 const FooterContainer = styled.footer`
 	position: fixed;
-	/* top: ${props => props.topPosition || '260rem'}; */
+	/* top: ${(props) => props.topPosition || '260rem'}; */
 	display: flex;
 	flex-flow: row wrap;
-	z-index: 0;
+	z-index: -1;
 `;
 
 const FooterLogoContainer = styled.div`
@@ -118,7 +118,7 @@ const ImgLogo = styled.img`
 	padding: 3rem;
 `;
 
-const Footer = props => {
+const Footer = (props) => {
 	return (
 		<Fragment>
 			<FooterContainer topPosition={props.topPosition}>

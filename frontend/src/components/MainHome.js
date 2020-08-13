@@ -18,7 +18,7 @@ const PageIntroContainer = styled.article`
 
 	@media (min-width: 481px) and (max-width: 767px) {
 		//CSS
-		z-index: 1;
+		z-index: 0;
 		width: 70rem;
 		background: #ffffff;
 		height: 65rem;
@@ -31,7 +31,7 @@ const PageIntroContainer = styled.article`
 
 	@media (min-width: 320px) and (max-width: 480px) {
 		//CSS
-		z-index: 1;
+		z-index: 0;
 		width: 59rem;
 		background: #ffffff;
 		height: 65rem;
@@ -61,7 +61,7 @@ const MainContainer = styled.main`
 const TechStackContainer = styled.section`
 	position: absolute;
 	width: 100%;
-	z-index: 2;
+	z-index: 0;
 	top: 140rem;
 	display: flex;
 	flex-flow: row wrap;
@@ -125,7 +125,7 @@ const DesignContainer = styled.section`
 	top: 190rem;
 	display: flex;
 	flex-flow: column wrap;
-	z-index: 4;
+	z-index: 0;
 
 	/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -242,7 +242,7 @@ const PageTitle = styled.div`
 	position: absolute;
 	width: 100%;
 	height: 9rem;
-	z-index: 2;
+	z-index: 0;
 	top: 122.7rem;
 	background: #ffffff;
 	text-align: center;
@@ -298,7 +298,7 @@ const PageTitleHeading = styled.h1`
 
 const PageIntroBG = styled.div`
 	position: absolute;
-	background: #ffffff;
+	/* background: #ffffff; */
 	width: 100%;
 	height: 33rem;
 	top: 90rem;
@@ -341,6 +341,7 @@ const DiagonalBG = styled.div`
 	height: 193.7rem;
 	right: 0;
 	width: 107.6rem;
+	z-index: -1;
 `;
 
 const Main = () => {

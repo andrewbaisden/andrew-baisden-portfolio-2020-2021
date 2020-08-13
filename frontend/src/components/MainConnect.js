@@ -115,7 +115,7 @@ const PageTitleHeading = styled.h1`
 
 const PageIntroBG = styled.div`
 	position: absolute;
-	background: #ffffff;
+	/* background: #ffffff; */
 	width: 100%;
 	height: 33rem;
 	top: 90rem;
@@ -129,6 +129,7 @@ const DiagonalBG = styled.div`
 	height: 140.7rem;
 	right: 0;
 	width: 107.6rem;
+	z-index: -1;
 `;
 
 const ConnectText = styled.p`

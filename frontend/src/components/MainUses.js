@@ -92,7 +92,7 @@ const PageTitleHeading = styled.h1`
 
 const PageIntroBG = styled.div`
 	position: absolute;
-	background: #ffffff;
+	/* background: #ffffff; */
 	width: 100%;
 	height: 33rem;
 	top: 90rem;
@@ -106,6 +106,7 @@ const DiagonalBG = styled.div`
 	height: 193.7rem;
 	right: 0;
 	width: 107.6rem;
+	z-index: -1;
 `;
 
 const UsesText = styled.p`
@@ -163,7 +164,7 @@ const MainUses = () => {
 				<PageIntroContainer>
 					<p>
 						The following is a list of the tools and software that I use on a daily basis to help me build amazing
-						things and stay productive throughout the day. This page was inspired by{' '}
+						things and stay productive throughout the day. This page was inspired by
 						<a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer nofollow">
 							Wes Bos
 						</a>
@@ -191,7 +192,7 @@ const MainUses = () => {
 							<li>Laptop: MacBook Pro (Retina, 13-inch, Mid 2014)</li>
 							<li>Operating System: macOS</li>
 							<li>External Display: Apple 27" Thunderbolt Display</li>
-							<li>Mouse: Apple Magic Mouse</li>
+							<li>Mouse: Logitech MX Master 3</li>
 							<li>Mouse Pad: SteelSeries QcK gaming mouse pad</li>
 						</UsesList>
 
@@ -200,7 +201,7 @@ const MainUses = () => {
 						<strong>Code Editor Setup</strong>
 						<UsesList>
 							<li>Code Editor: Visual Studio Code</li>
-							<li>Theme: Night Owl - Sarah Drasner</li>
+							<li>Theme: Shades of Purple - Ahmad Awais</li>
 							<li>Font: Fira Code - monospaced font with programming ligatures</li>
 						</UsesList>
 
@@ -215,7 +216,7 @@ const MainUses = () => {
 						<strong>Frontend Tech Stack</strong>
 						<UsesList>
 							<li>Browser: Chrome, Firefox, Safari</li>
-							<li>Framework: React, Redux, Next, Vue</li>
+							<li>Framework: React, Redux, Next, Gatsby</li>
 						</UsesList>
 
 						<strong>Backend Tech Stack</strong>
@@ -223,15 +224,15 @@ const MainUses = () => {
 						<UsesList>
 							<li>Database: MongoDB</li>
 							<li>Server: Node.js</li>
-							<li>Serverless: Netlify, Zeit Now, Heroku</li>
-							<li>API Testing: Postman</li>
+							<li>Serverless: Netlify, Vercel, Heroku</li>
+							<li>API Testing: Insomnia, Postman</li>
 						</UsesList>
 
 						<strong>Design</strong>
 
 						<UsesList>
 							<li>Graphic Design: Adobe Photoshop</li>
-							<li>UI Design and Prototyping: Figma, Sketch, Adobe XD, InVision Studio</li>
+							<li>UI Design and Prototyping: Figma, Adobe XD</li>
 						</UsesList>
 
 						<UsesHeadingH1>Mobile</UsesHeadingH1>
@@ -253,7 +254,7 @@ const MainUses = () => {
 							<li>Entertainment: YouTube</li>
 							<li>Social Media: Twitter, Instagram</li>
 							<li>Learning: Udemy</li>
-							<li>Developer Documentation API: Dash</li>
+							<li>Developer Documentation API: DevDocs</li>
 							<li>Mindfulness: Headspace, Calm</li>
 							<li>Messaging: WhatsApp, Discord, Slack</li>
 						</UsesList>
@@ -261,7 +262,7 @@ const MainUses = () => {
 						<UsesHeadingH1>Getting Things Done (GTD)</UsesHeadingH1>
 						<GTD>
 							It’s basically a methodology for making yourself highly productive in your lifestyle. The Apps below are
-							the ones i’m using to manage this workflow{' '}
+							the ones i’m using to manage this workflow
 							<a href="https://gettingthingsdone.com/" rel="noopener noreferrer nofollow" target="_blank">
 								https://gettingthingsdone.com/
 							</a>
@@ -272,13 +273,9 @@ const MainUses = () => {
 						<UsesList>
 							<li>Calendar: Apple Calendar</li>
 							<li>Email: Apple Email</li>
-							<li>Simplenote/Typora/Notable: Note taking and writing documents</li>
-							<li>
-								Notion: Notion is an all-in-one workspace where you can write, plan, collaborate and get organised - it
-								allows you to take notes, add tasks, manage projects & more
-							</li>
-							<li>Habitica: To Do Lists and reminders</li>
-							<li>Forest: Pomodoro</li>
+							<li>Productivity: Notion</li>
+							<li>To Do: Tick Tick</li>
+							<li>Note taking and writing: Typora/Notable/Obsidian/1Writer</li>
 							<li>Day One: Journaling</li>
 						</UsesList>
 					</UsesText>
