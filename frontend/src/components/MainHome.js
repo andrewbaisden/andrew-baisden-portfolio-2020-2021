@@ -126,6 +126,7 @@ const DesignContainer = styled.section`
 	display: flex;
 	flex-flow: column wrap;
 	z-index: 0;
+	margin-bottom: 5rem;
 
 	/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -154,7 +155,7 @@ const DesignContainer = styled.section`
 
 	@media (min-width: 320px) and (max-width: 480px) {
 		//CSS
-		top: 340rem;
+		top: 350rem;
 	}
 `;
 
