@@ -29,7 +29,7 @@ const GlobalBtnStyle = createGlobalStyle`
 	font-size: 1.2rem;
 }
 
-.html5 {
+.html {
 	width: 7rem;
 	height: 2.9rem;
 	font-weight: 700;
@@ -41,7 +41,7 @@ const GlobalBtnStyle = createGlobalStyle`
 	margin: 0.5rem;
 	font-size: 1.2rem;
 }
-.css3 {
+.css {
 	width: 7rem;
 	height: 2.9rem;
 	font-weight: 700;
@@ -382,7 +382,7 @@ const PortfolioWorkPod = ({ jobTitle, company, img, url, jobRole, techStack }) =
 					<div>
 						<WorkTitle>Tech Stack</WorkTitle>
 						<TechStackContainer>
-							{techStack.map(tech => {
+							{techStack.map((tech) => {
 								const text = tech.match(/[\S\.]/gi, '');
 								const textJoined = text.join('').toLowerCase();
 								// console.log(textJoined);
