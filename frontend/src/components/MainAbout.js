@@ -227,12 +227,10 @@ const MainAbout = () => {
 						<AboutHeadingH1>My self-summary</AboutHeadingH1>
 
 						<AboutPara>
-							Hey I’m Andrew a Full Stack Developer from London, England. Programming is one of my passions in life.
-							Over the years I have worked with different technical stacks and at the moment I have settled on a fairly
-							modern one. React on the Frontend and Node.js on the Backend. I really enjoy the freedom of thinking about
-							something creative. And then building it with the tools and knowledge that you know. The majority of my
-							most recent skills have been self taught. I find that it is one of the best ways to learn as you can go at
-							your own pace.
+							Hey I’m Andrew a Full Stack Developer from London, England. Programming is one of my passions in life. I
+							really enjoy the freedom of thinking about something creative and then building it with the tools and
+							knowledge that you know. The majority of my most recent skills have been self taught. I find that it is
+							one of the best ways to learn as you can go at your own pace.
 						</AboutPara>
 
 						<AboutHeadingH1>What i’m doing with my life</AboutHeadingH1>

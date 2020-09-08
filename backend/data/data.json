@@ -6,7 +6,7 @@
 		"img": "http://localhost:5000/static/decorativePaintingExpertsLogo.svg",
 		"url": "https://decorating-painting-experts.netlify.com/",
 		"jobRole": "Designing, building and deploying the website",
-		"techStack": ["Full Stack", "HTML5", "CSS3", "Javascript", "React", "NodeJS"],
+		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "React", "NodeJS"],
 		"workType": "Commercial"
 	},
 	{
@@ -16,7 +16,7 @@
 		"img": "http://localhost:5000/static/meghanHarperLogo.svg",
 		"url": "https://meghan-harper.netlify.com/",
 		"jobRole": "Designing, building and deploying the website",
-		"techStack": ["Full Stack", "HTML5", "CSS3", "Javascript", "React", "NodeJS"],
+		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "React", "NodeJS"],
 		"workType": "Commercial"
 	},
 	{
@@ -26,7 +26,7 @@
 		"img": "http://localhost:5000/static/ocadoLogo.svg",
 		"url": "N/A",
 		"jobRole": "Developing pages and using the CMS",
-		"techStack": ["Front End", "HTML5", "CSS3"],
+		"techStack": ["Front End", "HTML", "CSS"],
 		"workType": "Commercial"
 	},
 	{
@@ -36,7 +36,7 @@
 		"img": "http://localhost:5000/static/bcsgLogo.svg",
 		"url": "https://property-quote-generator-app.netlify.com/",
 		"jobRole": "Developing a housing price quote calculator app",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript", "React"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript", "React"],
 		"workType": "Commercial"
 	},
 	{
@@ -46,7 +46,7 @@
 		"img": "http://localhost:5000/static/schawkLogo.svg",
 		"url": "N/A",
 		"jobRole": "Developing HTML Emails and HTML5 Banners",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript"],
 		"workType": "Commercial"
 	},
 	{
@@ -56,7 +56,7 @@
 		"img": "http://localhost:5000/static/powWowLogo.svg",
 		"url": "N/A",
 		"jobRole": "Developing responsive landing pages",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript"],
 		"workType": "Commercial"
 	},
 	{
@@ -66,7 +66,7 @@
 		"img": "http://localhost:5000/static/aprilSixLogo.svg",
 		"url": "N/A",
 		"jobRole": "Developing HTML Emails and landing pages",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript"],
 		"workType": "Commercial"
 	},
 	{
@@ -76,7 +76,7 @@
 		"img": "http://localhost:5000/static/uclLogo.svg",
 		"url": "N/A",
 		"jobRole": "HR website migration and MySQL database queries",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript", "SQL"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript", "SQL"],
 		"workType": "Commercial"
 	},
 	{
@@ -86,7 +86,7 @@
 		"img": "http://localhost:5000/static/mediaReachLogo.svg",
 		"url": "http://latymercourt.com/",
 		"jobRole": "Using the CMS to manage content, creating HTML Emails and built the Latymer Court website",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript"],
 		"workType": "Commercial"
 	},
 	{
@@ -96,7 +96,7 @@
 		"img": "http://localhost:5000/static/earlexLogo.svg",
 		"url": "N/A",
 		"jobRole": "Designed flyers using Photoshop and did content management on the website",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript"],
 		"workType": "Commercial"
 	},
 	{
@@ -106,7 +106,7 @@
 		"img": "http://localhost:5000/static/digitalViewLogo.svg",
 		"url": "N/A",
 		"jobRole": "Website content managment using the CMS",
-		"techStack": ["Front End", "HTML5", "CSS3"],
+		"techStack": ["Front End", "HTML", "CSS"],
 		"workType": "Commercial"
 	},
 	{
@@ -116,7 +116,7 @@
 		"img": "http://localhost:5000/static/focusDIYLogo.svg",
 		"url": "N/A",
 		"jobRole": "Building webpages as well as website content management and HTML Emails",
-		"techStack": ["Front End", "HTML5", "CSS3"],
+		"techStack": ["Front End", "HTML", "CSS"],
 		"workType": "Commercial"
 	},
 	{
@@ -126,7 +126,7 @@
 		"img": "http://localhost:5000/static/personal_projects.svg",
 		"url": "https://fortnite-db.netlify.com/",
 		"jobRole": "Building a Fortnite Weapon and Item selector App",
-		"techStack": ["Full Stack", "HTML5", "CSS3", "Javascript", "React", "NodeJS", "GraphQL"],
+		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "React", "NodeJS", "GraphQL"],
 		"workType": "Personal"
 	},
 	{
@@ -136,7 +136,7 @@
 		"img": "http://localhost:5000/static/ab2020Logo.svg",
 		"url": "https://portfolio-2018-2019.netlify.com/",
 		"jobRole": "Designing, building and deploying the website 2018 - 2019 Version",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript", "React"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript", "React"],
 		"workType": "Archive"
 	},
 	{
@@ -146,7 +146,7 @@
 		"img": "http://localhost:5000/static/ab2014Logo.svg",
 		"url": "https://portfolio-2011-2017.netlify.com/",
 		"jobRole": "Designing, building and deploying the website 2011 - 2017 Version (Wordpress then Yeoman)",
-		"techStack": ["Front End", "HTML5", "CSS3", "Javascript"],
+		"techStack": ["Front End", "HTML", "CSS", "Javascript"],
 		"workType": "Archive"
 	},
 	{
@@ -156,7 +156,7 @@
 		"img": "http://localhost:5000/static/ab2014Logo.svg",
 		"url": "https://github.com/andrewbaisden/andrew-baisden-portfolio-2010",
 		"jobRole": "Designing, building and deploying the website 2010 Version (3D Studio Max and Flash...)",
-		"techStack": ["Front End", "HTML5", "CSS3"],
+		"techStack": ["Front End", "HTML", "CSS"],
 		"workType": "Archive"
 	},
 	{
@@ -166,7 +166,7 @@
 		"img": "http://localhost:5000/static/personal_projects.svg",
 		"url": "https://dbz-database-client.herokuapp.com/",
 		"jobRole": "Building a database of characters from the Dragonball Universe",
-		"techStack": ["Full Stack", "HTML5", "CSS3", "Javascript", "NodeJS"],
+		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "NodeJS"],
 		"workType": "Personal"
 	}
 ]

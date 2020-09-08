@@ -177,7 +177,7 @@ const FrontEndBtn = styled.button`
 	}
 `;
 
-const HTML5Btn = styled.button`
+const HTMLBtn = styled.button`
 	width: 8.3rem;
 	height: 2.9rem;
 	font-weight: 700;
@@ -195,7 +195,7 @@ const HTML5Btn = styled.button`
 	}
 `;
 
-const CSS3Btn = styled.button`
+const CSSBtn = styled.button`
 	width: 8.3rem;
 	height: 2.9rem;
 	font-weight: 700;
@@ -286,7 +286,7 @@ const NodeJSBtn = styled.button`
 	}
 `;
 
-const VueBtn = styled.button`
+const TypeScriptBtn = styled.button`
 	width: 8.3rem;
 	height: 2.9rem;
 	font-weight: 700;
@@ -294,7 +294,43 @@ const VueBtn = styled.button`
 	border-radius: 0.5rem;
 	cursor: pointer;
 	border: 0.1rem solid #126741;
-	background: #41b883;
+	background: #3278c6;
+	color: #ffffff;
+	transition: background 0.5s;
+	margin: 2rem;
+
+	:hover {
+		background: #2a3642;
+	}
+`;
+
+const PythonBtn = styled.button`
+	width: 8.3rem;
+	height: 2.9rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	border: 0.1rem solid #126741;
+	background: #ffce3d;
+	color: #ffffff;
+	transition: background 0.5s;
+	margin: 2rem;
+
+	:hover {
+		background: #2a3642;
+	}
+`;
+
+const KotlinBtn = styled.button`
+	width: 8.3rem;
+	height: 2.9rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	border: 0.1rem solid #126741;
+	background: #6b70fc;
 	color: #ffffff;
 	transition: background 0.5s;
 	margin: 2rem;
@@ -563,16 +599,18 @@ const MainPortfolio = () => {
 							<AllBtn onClick={getPortfolioData}>All</AllBtn>
 							<FullStackBtn onClick={() => getFilterData('Full Stack')}>Full Stack</FullStackBtn>
 							<FrontEndBtn onClick={() => getFilterData('Front End')}>Front End</FrontEndBtn>
-							<HTML5Btn onClick={() => getFilterData('HTML5')}>HTML5</HTML5Btn>
-							<CSS3Btn onClick={() => getFilterData('CSS3')}>CSS3</CSS3Btn>
+							<HTMLBtn onClick={() => getFilterData('HTML')}>HTML</HTMLBtn>
+							<CSSBtn onClick={() => getFilterData('CSS')}>CSS</CSSBtn>
 							<JavascriptBtn onClick={() => getFilterData('Javascript')}>Javascript</JavascriptBtn>
 							<ReactBtn onClick={() => getFilterData('React')}>React</ReactBtn>
 							<ReduxBtn onClick={() => getFilterData('Redux')}>Redux</ReduxBtn>
 							<NodeJSBtn onClick={() => getFilterData('NodeJS')}>NodeJS</NodeJSBtn>
-							<VueBtn onClick={() => getFilterData('Vue')}>Vue</VueBtn>
+							<TypeScriptBtn onClick={() => getFilterData('TypeScript')}>TypeScript</TypeScriptBtn>
+							<PythonBtn onClick={() => getFilterData('Python')}>Python</PythonBtn>
+							<KotlinBtn onClick={() => getFilterData('Kotlin')}>Kotlin</KotlinBtn>
 							<NoSQLBtn onClick={() => getFilterData('NoSQL')}>NoSQL</NoSQLBtn>
 							<SQLBtn onClick={() => getFilterData('SQL')}>SQL</SQLBtn>
-							<GraphQLBtn onClick={() => getFilterData('GraphQL')}>GraphQL</GraphQLBtn>
+							{/* <GraphQLBtn onClick={() => getFilterData('GraphQL')}>GraphQL</GraphQLBtn> */}
 						</SelectTechSkills>
 						<div>{data}</div>
 					</PortfolioContent>

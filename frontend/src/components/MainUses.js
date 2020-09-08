@@ -153,6 +153,31 @@ const UsesList = styled.ul`
 	}
 `;
 
+const UsesListTech = styled.ul`
+	margin: 2rem 0 2rem 0;
+	border: 0.2rem solid #3c4753;
+	padding: 4rem;
+	/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+	@media (min-width: 481px) and (max-width: 767px) {
+		//CSS
+		margin-left: 2rem;
+	}
+
+	/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+	@media (min-width: 320px) and (max-width: 480px) {
+		//CSS
+		margin-left: 2rem;
+	}
+`;
+
 const GTD = styled.p`
 	margin: 2rem 0 2rem 0;
 `;
@@ -201,7 +226,7 @@ const MainUses = () => {
 						<strong>Code Editor Setup</strong>
 						<UsesList>
 							<li>Code Editor: Visual Studio Code</li>
-							<li>Theme: Shades of Purple - Ahmad Awais</li>
+							<li>Theme: Dracula</li>
 							<li>Font: Fira Code - monospaced font with programming ligatures</li>
 						</UsesList>
 
@@ -209,24 +234,18 @@ const MainUses = () => {
 
 						<UsesList>
 							<li>Terminal: Hyper, iTerm 2</li>
-							<li>Theme: Material Theme</li>
+							<li>Theme: Dracula</li>
 							<li>Shell Configuration: Oh My Zsh</li>
 						</UsesList>
 
-						<strong>Frontend Tech Stack</strong>
-						<UsesList>
-							<li>Browser: Chrome, Firefox, Safari</li>
-							<li>Framework: React, Redux, Next, Gatsby</li>
-						</UsesList>
-
-						<strong>Backend Tech Stack</strong>
-
-						<UsesList>
-							<li>Database: MongoDB</li>
-							<li>Server: Node.js</li>
+						<strong>Technical Stack</strong>
+						<UsesListTech>
+							<li>Frontend: HTML, CSS, JavaScript, TypeScript, React, Redux</li>
+							<li>Backend: Python, NodeJS, Kotlin, SQL, NoSQL</li>
+							<li>CI/CD: GitHub Actions, CircleCI</li>
 							<li>Serverless: Netlify, Vercel, Heroku</li>
 							<li>API Testing: Insomnia, Postman</li>
-						</UsesList>
+						</UsesListTech>
 
 						<strong>Design</strong>
 

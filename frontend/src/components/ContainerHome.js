@@ -12,10 +12,10 @@ const PageContainer = styled.div`
 `;
 
 const pageState = {
-	backgroundImageDesktop: "url('/assets/img/home.jpg') no-repeat 100%;",
-	backgroundImageMobile: "url('/assets/img/home_mobile.jpg') no-repeat 100%;",
+	backgroundImageDesktop: "url('/assets/img/home_2020.jpg') no-repeat 100%;",
+	backgroundImageMobile: "url('/assets/img/home_2020.jpg') no-repeat 100%;",
 	logoDisplay: 'block',
-	pageTitle: 'ndrew'
+	pageTitle: 'ndrew',
 };
 
 const Container = () => {

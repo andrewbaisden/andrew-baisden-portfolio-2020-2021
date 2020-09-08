@@ -350,56 +350,47 @@ const Main = () => {
 			<MainContainer>
 				<PageIntroContainer>
 					<HeadingLine></HeadingLine>
-					<PageIntroHeading>Full Stack Developer</PageIntroHeading>
+					<PageIntroHeading>Services</PageIntroHeading>
 					<PageIntroPara>
-						Like everything in life my passion for programming came from an experience. Gaming to be exact. I was always
-						so amazed at the incredible things that you could do there is no better feeling than bringing something to
-						life.
-					</PageIntroPara>
-
-					<PageIntroPara>
-						Over the years I have constantly worked on evolving my skills and I have now settled on a very modern
-						developer workflow. It consists of using the MERN Stack (Mongo, Express, React, Node). They are very
-						powerful tools and I like how they can be used to build all types of applications. For the web, mobile and
-						desktop. The Apps i create follow
-						<a href="https://jamstack.org/" target="_blank" rel="noopener noreferrer nofollow">
-							JAMSTACK
-						</a>
-						principles.
+						I am capable of working on a variety of different projects. For the tech savvy out there that means that I
+						am a polyglot which basically means someone who knows or uses several programming languages. I can do web
+						development which means creating websites. Additionally I know how to work server side so creating servers
+						and setting up databases for example. And I even have the ability to create mobile and desktop applications
+						cross platform.
 					</PageIntroPara>
 				</PageIntroContainer>
 				<PageIntroBG></PageIntroBG>
 				<PageTitle>
-					<PageTitleHeading>Tech stack</PageTitleHeading>
+					<PageTitleHeading>Good For</PageTitleHeading>
 				</PageTitle>
 				<DiagonalBG></DiagonalBG>
 				<TechStackContainer>
 					<TechStack>
-						<TechStackImg src="/assets/img/mongodb.png" alt="MongoDB" />
+						<TechStackImg src="/assets/img/web_dev.png" alt="Web Development" />
 						<TechStackPara>
-							MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program,
-							MongoDB uses JSON-like documents with schema.
+							Web Development is when you create websites and web applications for clients (users) to interact with.
+							This is referred to as working on the front end.
 						</TechStackPara>
 					</TechStack>
 					<TechStack>
-						<TechStackImg src="/assets/img/express.png" alt="Express.js" />
+						<TechStackImg src="/assets/img/server_side.png" alt="Server-side" />
 						<TechStackPara>
-							Express.js, or simply Express, is a web application framework for Node.js. It is designed for building web
-							applications and APIs.
+							Server-side means creating backend systems which can include databases and servers which can hold
+							information that can be accessed on the front end.
 						</TechStackPara>
 					</TechStack>
 					<TechStack>
-						<TechStackImg src="/assets/img/react.png" alt="React.js" />
+						<TechStackImg src="/assets/img/mobile.png" alt="Mobile Development" />
 						<TechStackPara>
-							React is a JavaScript library for building user interfaces. React can be used as a base in the development
-							of single-page or mobile applications.
+							Mobile Development basically means creating applications that work on either iOS or Android phones. These
+							apps can then be downloaded and installed from the app stores.
 						</TechStackPara>
 					</TechStack>
 					<TechStack>
-						<TechStackImg src="/assets/img/nodejs.png" alt="Node.js" />
+						<TechStackImg src="/assets/img/native.png" alt="Native Development" />
 						<TechStackPara>
-							Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code
-							outside of a browser.
+							Native Development allows for the creation of cross-platform desktop apps. These apps can be run on macOS,
+							Windows, Linux and other platforms.
 						</TechStackPara>
 					</TechStack>
 				</TechStackContainer>
@@ -407,11 +398,11 @@ const Main = () => {
 				<DesignContainer>
 					<DesignIntro>
 						<HeadingLine></HeadingLine>
-						<DesignHeading>OMG a Developer who has an eye for design!</DesignHeading>
+						<DesignHeading>Design Skills</DesignHeading>
 						<DesignPara>
-							No templates or themes this site is 100% custom and designed using Figma! I learned Photoshop before i was
-							writing lines of code to be fair. I like being versatile and this ability to design my own creatives if i
-							need to makes me unique as not all Developers can work with design tools.
+							Programming is my main skill however I do have a design background as well. This very website is my own
+							custom design. I like being versatile and this ability to design my own creatives if I need to makes me
+							unique as not all Developers can work with design tools.
 						</DesignPara>
 					</DesignIntro>
 					<DesignToolsContainer>
