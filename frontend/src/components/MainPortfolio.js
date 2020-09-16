@@ -420,7 +420,7 @@ const MainPortfolio = () => {
 
 	const getPortfolioData = async () => {
 		try {
-			// URL for backend node express endpoint
+			// URL for backend node REST API endpoint
 			// Comment/uncomment the code below for switching between local/online servers
 			// const API = 'http://localhost:5000/api';
 			const API = 'https://portfolio-2020-backend.vercel.app/api';
@@ -500,7 +500,7 @@ const MainPortfolio = () => {
 
 	const getFilterData = async (techSkill) => {
 		try {
-			// URL for backend node express endpoint
+			// URL for backend node REST API endpoint
 			// Comment/uncomment the code below for switching between local/online servers
 			// const API = 'http://localhost:5000/api';
 			const API = 'https://portfolio-2020-backend.vercel.app/api';
