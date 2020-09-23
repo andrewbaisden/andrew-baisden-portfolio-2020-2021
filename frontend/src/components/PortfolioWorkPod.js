@@ -158,6 +158,45 @@ const GlobalBtnStyle = createGlobalStyle`
 	font-size: 1.2rem;
 }
 
+.typescript {
+	width: 7rem;
+	height: 2.9rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 0.5rem;
+	border: 0.1rem solid #126741;
+	background: #3278c6;
+	color: #ffffff;
+	margin: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.python {
+	width: 7rem;
+	height: 2.9rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 0.5rem;
+	border: 0.1rem solid #126741;
+	background: #ffce3d;
+	color: #ffffff;
+	margin: 0.5rem;
+	font-size: 1.2rem;
+}
+
+.kotlin {
+	width: 7rem;
+	height: 2.9rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 0.5rem;
+	border: 0.1rem solid #126741;
+	background: #6b70fc;
+	color: #ffffff;
+	margin: 0.5rem;
+	font-size: 1.2rem;
+}
+
 `;
 
 const PortfolioWork = styled.div`
