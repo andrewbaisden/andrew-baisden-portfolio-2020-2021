@@ -168,5 +168,25 @@
 		"jobRole": "Building a database of characters from the Dragonball Universe",
 		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "NodeJS"],
 		"workType": "Personal"
+	},
+	{
+		"id": "20",
+		"jobTitle": "Full Stack Developer",
+		"company": "Personal Projects",
+		"img": "https://res.cloudinary.com/d74fh3kw/image/upload/v1596106901/portfolio2020/personal_projects_x6haxf.svg",
+		"url": "https://meta-games.netlify.app/",
+		"jobRole": "An app for displaying a selection of metacritic games",
+		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "React", "TypeScript", "Python", "SQL"],
+		"workType": "Personal"
+	},
+	{
+		"id": "21",
+		"jobTitle": "Full Stack Developer",
+		"company": "Personal Projects",
+		"img": "https://res.cloudinary.com/d74fh3kw/image/upload/v1596106901/portfolio2020/personal_projects_x6haxf.svg",
+		"url": "https://meta-movies.netlify.app/",
+		"jobRole": "An app for displaying a selection of metacritic movies",
+		"techStack": ["Full Stack", "HTML", "CSS", "Javascript", "React", "TypeScript", "NodeJS", "SQL"],
+		"workType": "Personal"
 	}
 ]
