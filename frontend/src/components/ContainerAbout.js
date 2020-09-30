@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 import styled from 'styled-components';
 import { useWindowSize, useWindowWidth, useWindowHeight } from '@react-hook/window-size';
 import HeaderAbout from './HeaderAbout';
+// import Header from './Header';
 import MainAbout from './MainAbout';
 import Footer from './Footer';
 
@@ -15,7 +16,7 @@ const pageState = {
 	backgroundImageDesktop: '#F7F8FA',
 	backgroundImageMobile: '#F7F8FA',
 	logoDisplay: 'none',
-	pageTitle: ''
+	pageTitle: '',
 };
 
 const Container = () => {
@@ -65,6 +66,11 @@ const Container = () => {
 					logoDisplay={pageState.logoDisplay}
 					pageTitle={pageState.pageTitle}
 				/>
+				{/* <Header
+					background={pageState.backgroundImageDesktop}
+					logoDisplay={pageState.logoDisplay}
+					pageTitle={pageState.pageTitle}
+				/> */}
 				<MainAbout />
 				<Footer topPosition={footerTop} />
 			</PageContainer>
