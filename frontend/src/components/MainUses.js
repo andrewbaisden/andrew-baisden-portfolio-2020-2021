@@ -214,9 +214,9 @@ const MainUses = () => {
 						<UsesHeadingH1>Desktop</UsesHeadingH1>
 						<UsesHeadingH2>Hardware</UsesHeadingH2>
 						<UsesList>
-							<li>Laptop: MacBook Pro (Retina, 13-inch, Mid 2014)</li>
+							<li>Laptop: Apple MacBook Pro (13", M1, 2020)</li>
 							<li>Operating System: macOS</li>
-							<li>External Display: Apple 27" Thunderbolt Display</li>
+							<li>External Display: LG 27UL850W 4K UHD LED LCD Monitor</li>
 							<li>Mouse: Logitech MX Master 3</li>
 							<li>Mouse Pad: SteelSeries QcK gaming mouse pad</li>
 						</UsesList>
@@ -227,7 +227,7 @@ const MainUses = () => {
 						<UsesList>
 							<li>Code Editor: Visual Studio Code</li>
 							<li>Theme: Dracula</li>
-							<li>Font: Fira Code - monospaced font with programming ligatures</li>
+							<li>Font: JetBrains Mono</li>
 						</UsesList>
 
 						<strong>Command Line Interface (CLI) Setup</strong>
@@ -240,8 +240,8 @@ const MainUses = () => {
 
 						<strong>Technical Stack</strong>
 						<UsesListTech>
-							<li>Frontend: HTML, CSS, JavaScript, TypeScript, React, Redux</li>
-							<li>Backend: Python, NodeJS, Kotlin, SQL, NoSQL</li>
+							<li>Frontend: HTML, CSS, JavaScript, Typescript, React, Redux, React Native Flutter/Dart</li>
+							<li>Backend: Python, NodeJS, SQL, NoSQL</li>
 							<li>CI/CD: GitHub Actions, CircleCI</li>
 							<li>Serverless: Netlify, Vercel, Heroku</li>
 							<li>API Testing: Insomnia, Postman</li>
@@ -251,7 +251,7 @@ const MainUses = () => {
 
 						<UsesList>
 							<li>Graphic Design: Adobe Photoshop</li>
-							<li>UI Design and Prototyping: Figma, Adobe XD</li>
+							<li>UI Design and Prototyping: Figma</li>
 						</UsesList>
 
 						<UsesHeadingH1>Mobile</UsesHeadingH1>
@@ -259,23 +259,20 @@ const MainUses = () => {
 						<UsesHeadingH2>Hardware</UsesHeadingH2>
 
 						<UsesList>
-							<li>Phone: iPhone X</li>
-							<li>Operating System: iOS</li>
+							<li>Phone: Samsung Galaxy S21 Ultra 5G</li>
+							<li>Operating System: Android</li>
 						</UsesList>
 
 						<UsesHeadingH3>Mobile Apps</UsesHeadingH3>
 
 						<UsesList>
-							<li>Browser: Safari</li>
+							<li>Browser: Chrome</li>
 							<li>Podcasts: Pocket Casts</li>
 							<li>Audio Books: Audible</li>
 							<li>Music: Spotify, Apple Music</li>
 							<li>Entertainment: YouTube</li>
-							<li>Social Media: Twitter, Instagram</li>
-							<li>Learning: Udemy</li>
-							<li>Developer Documentation API: DevDocs</li>
 							<li>Mindfulness: Headspace, Calm</li>
-							<li>Messaging: WhatsApp, Discord, Slack</li>
+							<li>Messaging: WhatsApp, Telegram, Signal, Discord, Slack</li>
 						</UsesList>
 
 						<UsesHeadingH1>Getting Things Done (GTD)</UsesHeadingH1>
@@ -290,12 +287,12 @@ const MainUses = () => {
 						<UsesHeadingH2>Desktop and Mobile Apps</UsesHeadingH2>
 
 						<UsesList>
-							<li>Calendar: Apple Calendar</li>
-							<li>Email: Apple Email</li>
+							<li>Calendar: Apple/Google Calendar</li>
+							<li>Email: Apple Email/Gmail</li>
 							<li>Productivity: Notion</li>
 							<li>To Do: Tick Tick</li>
-							<li>Note taking and writing: Typora/Notable/Obsidian/1Writer</li>
-							<li>Day One: Journaling</li>
+							<li>Note taking and writing: Typora/Dropbox Paper</li>
+							<li>Journaling: Daylio</li>
 						</UsesList>
 					</UsesText>
 				</ConnectContainer>

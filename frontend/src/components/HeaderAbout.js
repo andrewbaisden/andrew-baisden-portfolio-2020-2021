@@ -400,11 +400,11 @@ const Header = (props) => {
 									</DevCommunity>
 									<DevCommunity>
 										<DevLink
-											href="https://stackoverflow.com/users/3665610/andrew-baisden?tab=profile"
+											href="https://andrewbaisden.hashnode.dev/"
 											target="_blank"
 											rel="noopener noreferrer nofollow"
 										>
-											<DevCommunityImg src="/assets/img/stackoverflow.svg" alt="Stackoverflow" />
+											<DevCommunityImg src="/assets/img/hashnode.svg" alt="Hashnode" />
 										</DevLink>
 									</DevCommunity>
 									<DevCommunity>
