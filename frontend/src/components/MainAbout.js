@@ -258,7 +258,7 @@ const MainAbout = () => {
 						<AboutList>
 							<li>Visual Studio Code</li>
 							<li>My MacBook</li>
-							<li>My iPhone</li>
+							<li>My Phone</li>
 							<li>Coffee</li>
 							<li>Food</li>
 							<li>Internet</li>
