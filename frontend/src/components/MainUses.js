@@ -240,8 +240,8 @@ const MainUses = () => {
 
 						<strong>Technical Stack</strong>
 						<UsesListTech>
-							<li>Frontend: HTML, CSS, JavaScript, Typescript, React, Redux, React Native Flutter/Dart</li>
-							<li>Backend: Python, NodeJS, SQL, NoSQL</li>
+							<li>Front-End: HTML, CSS, JavaScript, TypeScript, React, React Native, Redux, Flutter/Dart</li>
+							<li>Back-End: Python, NodeJS, SQL, NoSQL</li>
 							<li>CI/CD: GitHub Actions, CircleCI</li>
 							<li>Serverless: Netlify, Vercel, Heroku</li>
 							<li>API Testing: Insomnia, Postman</li>
