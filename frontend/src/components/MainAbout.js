@@ -227,10 +227,18 @@ const MainAbout = () => {
 						<AboutHeadingH1>My self-summary</AboutHeadingH1>
 
 						<AboutPara>
-							Hey I’m Andrew a Full Stack Developer from London, England. Programming is one of my passions in life. I
-							really enjoy the freedom of thinking about something creative and then building it with the tools and
-							knowledge that you know. The majority of my most recent skills have been self taught. I find that it is
-							one of the best ways to learn as you can go at your own pace.
+							Hey my name is Andrew and I am a Full-Stack developer who creates web and mobile applications using
+							JavaScript. My Front-End framework of choice is React which I use when working on web apps and React
+							Native when I am building mobile apps. I am skilled in various areas and believe that makes me versatile
+							as I know quite a few different programming languages. I also have experience with Flutter and Dart so
+							that is another option when considering cross platform app development.
+						</AboutPara>
+
+						<AboutPara>
+							Having a great work life balance is important so remote working is preferential considering our current
+							circumstances or at the very least a few days remote working which is flexible. I also have experience as
+							a blogger and technical writer which not only aids as a learning tool but it is also a great way to engage
+							with the developer community.
 						</AboutPara>
 
 						<AboutHeadingH1>What i’m doing with my life</AboutHeadingH1>
