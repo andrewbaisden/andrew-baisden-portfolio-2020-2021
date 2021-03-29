@@ -227,7 +227,7 @@ const MainAbout = () => {
 						<AboutHeadingH1>My self-summary</AboutHeadingH1>
 
 						<AboutPara>
-							Hey my name is Andrew and I am a Full-Stack developer who creates web and mobile applications using
+							Hey my name is Andrew, I am a Full-Stack developer who creates web and mobile applications using
 							JavaScript. My Front-End framework of choice is React which I use when working on web apps and React
 							Native when I am building mobile apps. I am skilled in various areas and believe that makes me versatile
 							as I know quite a few different programming languages. I also have experience with Flutter and Dart so
