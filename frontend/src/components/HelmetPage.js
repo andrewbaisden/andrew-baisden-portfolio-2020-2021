@@ -9,11 +9,14 @@ const HelmetPage = () => {
 			<Fragment>
 				<Helmet>
 					<meta charSet="utf-8"></meta>
-					<meta name="description" content="Andrew Baisden a Full Stack Developer from London England. Develops websites and applications using HTML5, CSS3, Javascript, React.js, Node.js and MongoDB"></meta>
+					<meta
+						name="description"
+						content="Andrew Baisden a Full-Stack Developer from London England. Skilled in JavaScript, React, Node, Flutter/Dart, Database and Technical Writing."
+					></meta>
 					<meta
 						name="keywords"
 						itemprop="keywords"
-						content="Full Stack Developer, Full Stack, Full-Stack Developer, Full-Stack, Front-End Developer, FrontEnd Developer, Front-End Web Developer, Web Developer, Website Development, Website Design, Freelancer, Freelancer London, Andrew Baisden, AndrewBaisden, Andrew, Baisden, Baisden Andrew, BaisdenAndrew, Developer, Designer, Front-End, Back-End, Frontend, Backend, Andrew Baisden Developer, Andrew Baisden Frontend Developer, Andrew Baisden Full Stack, Andrew Baisden Full-Stack, Developer London, Web Developer London, React Developer, React, ReactJS, React Developer London, JavaScript, JavaScript Developer, Developer JavaScript, MERN Stack, MERN, MongoDB Developer, Express Developer, Node Developer, Node.js Developer"
+						content="Full Stack Developer, Full Stack, Full-Stack Developer, Full-Stack, Front-End Developer, FrontEnd Developer, Front-End Web Developer, Web Developer, Website Development, Website Design, Freelancer, Freelancer London, Andrew Baisden, AndrewBaisden, Andrew, Baisden, Baisden Andrew, BaisdenAndrew, Developer, Designer, Front-End, Back-End, Frontend, Backend, Andrew Baisden Developer, Andrew Baisden Frontend Developer, Andrew Baisden Full Stack, Andrew Baisden Full-Stack, Developer London, Web Developer London, React Developer, React, ReactJS, React Developer London, JavaScript, JavaScript Developer, Developer JavaScript, MERN Stack, MERN, MongoDB Developer, Express Developer, Node Developer, Node.js Developer, Flutter, Dart, Blogging, Writing, Technical Writing, Python, TypeScript, React Native, Redux"
 					></meta>
 					<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes"></meta>
 					<meta name="msapplication-TileColor" content="#ffffff"></meta>
