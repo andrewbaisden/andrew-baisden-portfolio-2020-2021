@@ -125,6 +125,15 @@ const AboutPara = styled.p`
 	margin: 2rem 0 2rem 0;
 `;
 
+const AboutBadges = styled.div`
+	margin: 2rem 0 2rem 0;
+	flex: row nowrap;
+`;
+
+const Badges = styled.a`
+	display: inline-block;
+`;
+
 const AboutList = styled.ol`
 	margin: 0 0 2rem 2rem;
 `;
@@ -294,6 +303,41 @@ const MainAbout = () => {
 							You are human and not a robot. It's a bit too soon for the robot apocalypse 🔥. Contact me with any work
 							opportunites that are short term, long term or remote. And feel free to connect with me on social media.
 						</AboutPara>
+
+						<AboutHeadingH1>Lets Connect</AboutHeadingH1>
+
+						<AboutPara>
+							You can help to support my writing and content creation further by buying me a coffee or joining my
+							Patreon. Positive thoughts and gratitude go a long way you can follow me on
+							<a href="https://twitter.com/andrewbaisden" target="_blank" rel="noreferrer noopener">
+								Twitter
+							</a>
+							as well as my other blogs and platforms which can be found on my website and profiles. Don't forget to
+							check out my other articles as I have a lot of content that you will find useful. Peace! ✌️
+						</AboutPara>
+						<AboutBadges>
+							<Badges href="https://www.buymeacoffee.com/andrewbaisden" target="_blank" rel="noreferrer noopener">
+								<img
+									height="36"
+									width="142"
+									src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png"
+									alt="Buy Me A Coffee"
+									// style="height: 60px !important;width: 217px !important;"
+								/>
+							</Badges>
+							<Badges href="https://ko-fi.com/Q5Q6456Q6" target="_blank" rel="noreferrer noopener">
+								<img
+									height="36"
+									width="142"
+									src="https://cdn.ko-fi.com/cdn/kofi2.png?v=2"
+									border="0"
+									alt="Buy Me a Coffee at ko-fi.com"
+								/>
+							</Badges>
+							<Badges href="https://www.patreon.com/andrewbaisden" target="_blank">
+								<img height="36" width="142" src="/assets/img/patreon_btn.png" border="0" alt="Join my Patreon" />
+							</Badges>
+						</AboutBadges>
 					</AboutText>
 				</ConnectContainer>
 			</MainContainer>
