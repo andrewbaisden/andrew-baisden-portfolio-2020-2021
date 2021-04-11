@@ -158,10 +158,14 @@ const MainConnect = () => {
 						<a href="mailto:andrewbaisden@gmail.com" target="_blank" rel="noopener noreferrer nofollow">
 							andrewbaisden@gmail.com
 						</a>
-						and I will get back to you ASAP. Otherwise feel free to connect with me on one of my social media channels.
+						and I will get back to you ASAP. Otherwise feel free to connect with me on one of my other
+						<a href="https://linktr.ee/andrewbaisden" target="_blank" rel="noreferrer noopener">
+							blogs and platforms
+						</a>
+						.
 						<br />
 						<br />
-						Peace Out!
+						Peace! ✌️
 					</ConnectText>
 				</ConnectContainer>
 			</MainContainer>

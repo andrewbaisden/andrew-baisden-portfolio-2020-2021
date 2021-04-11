@@ -312,8 +312,12 @@ const MainAbout = () => {
 							<a href="https://twitter.com/andrewbaisden" target="_blank" rel="noreferrer noopener">
 								Twitter
 							</a>
-							as well as my other blogs and platforms which can be found on my website and profiles. Don't forget to
-							check out my other articles as I have a lot of content that you will find useful. Peace! ✌️
+							as well as my other
+							<a href="https://linktr.ee/andrewbaisden" target="_blank" rel="noreferrer noopener">
+								blogs and platforms
+							</a>
+							which can be found on my website and profiles. Don't forget to check out my other articles as I have a lot
+							of content that you will find useful. Peace! ✌️
 						</AboutPara>
 						<AboutBadges>
 							<Badges href="https://www.buymeacoffee.com/andrewbaisden" target="_blank" rel="noreferrer noopener">
