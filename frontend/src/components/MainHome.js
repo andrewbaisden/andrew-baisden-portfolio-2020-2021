@@ -311,7 +311,7 @@ const HeadingLine = styled.div`
 	-moz-box-shadow: 22px 11px 5px 0px rgba(194, 194, 194, 1);
 	box-shadow: 22px 11px 5px 0px rgba(194, 194, 194, 1);
 	height: 0.5rem;
-	width: 18rem;
+	/* width: 18rem; */
 
 	/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -320,7 +320,8 @@ const HeadingLine = styled.div`
 
 	@media (min-width: 481px) and (max-width: 767px) {
 		//CSS
-		margin-left: 4rem;
+		/* margin-left: 4rem; */
+		margin: 0 4rem 0 4rem;
 	}
 
 	/* 
