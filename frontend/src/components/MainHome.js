@@ -10,7 +10,10 @@ const PageIntroContainer = styled.article`
 	right: 0;
 	background: url('/assets/img/intro_page_bg.svg') no-repeat center center;
 	padding: 6rem 4rem 0 24rem;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
 	/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -162,6 +165,10 @@ const DesignContainer = styled.section`
 const DesignIntro = styled.div`
 	text-align: center;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 `;
 
 const DesignImg = styled.img`
@@ -311,7 +318,7 @@ const HeadingLine = styled.div`
 	-moz-box-shadow: 22px 11px 5px 0px rgba(194, 194, 194, 1);
 	box-shadow: 22px 11px 5px 0px rgba(194, 194, 194, 1);
 	height: 0.5rem;
-	/* width: 18rem; */
+	width: 20rem;
 
 	/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -321,7 +328,6 @@ const HeadingLine = styled.div`
 	@media (min-width: 481px) and (max-width: 767px) {
 		//CSS
 		/* margin-left: 4rem; */
-		margin: 0 4rem 0 4rem;
 	}
 
 	/* 
@@ -331,7 +337,7 @@ const HeadingLine = styled.div`
 
 	@media (min-width: 320px) and (max-width: 480px) {
 		//CSS
-		margin-left: 4rem;
+		/* margin-left: 4rem; */
 	}
 `;
 
