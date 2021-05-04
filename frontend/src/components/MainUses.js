@@ -288,10 +288,9 @@ const MainUses = () => {
 
 						<UsesList>
 							<li>Calendar: Apple/Google Calendar</li>
-							<li>Email: Apple Email/Gmail</li>
+							<li>Email: Apple Mail/Gmail</li>
 							<li>Productivity: Notion</li>
-							<li>To Do: Tick Tick</li>
-							<li>Note taking and writing: Typora/Dropbox Paper</li>
+							<li>Note Taking/Writing: Obsidian</li>
 							<li>Journaling: Daylio</li>
 						</UsesList>
 					</UsesText>
