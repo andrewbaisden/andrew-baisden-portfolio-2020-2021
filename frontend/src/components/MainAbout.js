@@ -211,7 +211,7 @@ const MainAbout = () => {
 					<ProfileStats>
 						<ProfileLI>
 							<ProfileIcon src="/assets/img/website.svg" alt="Website" />
-							Full Stack Developer, Creative, Anime and Gamer
+							Full-Stack Developer, Creative, Anime and Gamer
 						</ProfileLI>
 						<ProfileLI>
 							<ProfileIcon src="/assets/img/global.svg" alt="Website" />

@@ -396,7 +396,7 @@ const Nav = () => {
 						</li>
 						<li>
 							<DevLink
-								href="https://www.instagram.com/andrewbaisden/"
+								href="https://www.instagram.com/andrewbaisden_tech/"
 								target="_blank"
 								rel="noopener noreferrer nofollow"
 							>

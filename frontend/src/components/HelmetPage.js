@@ -22,7 +22,7 @@ const HelmetPage = () => {
 					<meta name="msapplication-TileColor" content="#ffffff"></meta>
 					<meta name="msapplication-TileImage" content="/ms-icon-144x144.png"></meta>
 					<meta name="theme-color" content="#ffffff"></meta>
-					<title>Full Stack Developer | Andrew Baisden | London</title>
+					<title>Full-Stack Developer | Andrew Baisden | London</title>
 					<link
 						href="https://fonts.googleapis.com/css?family=Fira+Code:400,500|Fira+Sans:400,700&display=swap"
 						rel="stylesheet"

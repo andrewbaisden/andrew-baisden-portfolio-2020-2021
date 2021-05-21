@@ -193,7 +193,7 @@ const MainUses = () => {
 						<a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer nofollow">
 							Wes Bos
 						</a>
-						who is a Full Stack Developer and co host on the popular developer podcast
+						who is a Full-Stack Developer and co host on the popular developer podcast
 						<a href="https://syntax.fm/" target="_blank" rel="noopener noreferrer nofollow">
 							Syntax
 						</a>

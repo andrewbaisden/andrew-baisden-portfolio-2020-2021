@@ -383,7 +383,7 @@ const Header = (props) => {
 									<SiteInfo>
 										<SiteInfoList>
 											<li>Andrew Baisden</li>
-											<li>Full Stack Developer</li>
+											<li>Full-Stack Developer</li>
 										</SiteInfoList>
 									</SiteInfo>
 								</SiteLogo>
@@ -418,7 +418,7 @@ const Header = (props) => {
 									</DevCommunity>
 									<DevCommunity>
 										<DevLink
-											href="https://www.instagram.com/andrewbaisden/"
+											href="https://www.instagram.com/andrewbaisden_tech/"
 											target="_blank"
 											rel="noopener noreferrer nofollow"
 										>
