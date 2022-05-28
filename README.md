@@ -1,6 +1,6 @@
-# Andrew Baisden Portfolio Website 2020
+# Andrew Baisden Portfolio Website 2020 - 2021
 
-![Portfolio 2020](https://res.cloudinary.com/d74fh3kw/image/upload/v1599575945/ab-homepage-sep_fzuh9e.jpg 'Portfolio 2020')
+![Portfolio 2020](/img/portfolio-2020-2021.jpeg 'Portfolio 2020')
 
 ## Installation
 

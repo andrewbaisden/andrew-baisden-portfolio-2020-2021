@@ -14,10 +14,10 @@
         "statusBar.background": "#00b3e6",
         "statusBarItem.hoverBackground": "#008bb3",
         "statusBar.foreground": "#15202b",
-        "panel.border": "#1accff",
-        "sideBar.border": "#1accff",
-        "editorGroup.border": "#1accff",
-        "tab.activeBorder": "#1accff"
+        "tab.activeBorder": "#1accff",
+        "sash.hoverBorder": "#1accff",
+        "statusBarItem.remoteBackground": "#00b3e6",
+        "statusBarItem.remoteForeground": "#15202b"
     },
     "peacock.color": "#00b3e6"
 }
